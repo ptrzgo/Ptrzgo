@@ -70,6 +70,7 @@ body {
   color: orangered;
   animation: middle 2s ;
   animation-iteration-count: 2;
+  animation-delay: 2.6s;
 }
 
 #text2 {
