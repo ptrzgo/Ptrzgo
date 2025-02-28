@@ -1,0 +1,61 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .hero h1 {
+    font-size: 20vw;
+    position: absolute;
+    opacity: 0;
+    color: #FFFCE1;
+  }
+  
+  #text1 {
+    top: 10%;
+    width: auto;
+  }
+  
+  #middle {
+    font-size: 5vw;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #FF8709;
+    animation: middle 2s ;
+    animation-iteration-count: 2;
+    animation-delay: 2.6s;
+  }
+  
+  #text2 {
+    bottom: 10%;
+  }
+  
+  #animatedText {
+    font-size: 50px;
+    white-space: nowrap; /* Zabránime zalomeniu textu */
+    overflow: hidden; /* Skryje text pri vypisovaní */
+    /* width: 0; Začneme s nulovou šírkou a animujeme ju */
+  }
+  
+  .highlight {
+    color: #7C7C6F
+  }
+  
+  /* ANIMÁCIA */
+  @keyframes middle {
+    0% {
+      /* color: orangered; */
+    }
+    50% {
+      color: rgb(8, 8, 8);
+      transform: scale(2);
+      transform: rotateZ(180deg);
+    }
+    100% {
+      /* color: orangered; */
+    }
+    
+  }
