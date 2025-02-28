@@ -1,4 +1,14 @@
 /* Resetovanie */
+:root {
+  --primary-color: #FF8709;
+  --secondary-color: #7C7C6F;
+  --tertiary-color: #FFFCE1;
+  --quaternary-color: #0E100F;
+}
+html {
+  scrollbar-width: thin; /* Tenký scrollbar */
+  scrollbar-color: var(--primary-color) var(--quaternary-color); /* Farba scrollbaru */
+}
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +20,26 @@ body {
   background-color: #111;
   color: #fff;
   text-align: center;
+  /* scrollbar-color: #FF8709 #111; */
+  /* scrollbar-width: thin; */
+  /* scroll-snap-type: mandatory; */
+}
+
+::-webkit-scrollbar {
+  width: 2px; /* Šírka scrollbaru */
+}
+
+::-webkit-scrollbar-track {
+  background: var(--tertiary-color); /* Pozadie scrollbaru */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Farba posúvača */
+  border-radius: 6px; /* Zaoblenie rohov posúvača */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Farba posúvača pri prejdení myšou */
 }
 
 /* MENU */
