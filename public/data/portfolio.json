@@ -1,7 +1,7 @@
 [
     {
       "category": "grafika",
-      "image": "/public/img/faktura.jpg",
+      "image": "/img/faktura.jpg",
       "title": "Grafický dizajn 1",
       "link": "https://example.com/grafika1"
     },

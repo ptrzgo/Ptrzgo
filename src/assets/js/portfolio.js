@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // ✅ Načítanie dát z JSON
     async function loadPortfolio() {
         try {
-            const response = await fetch("/public/data/portfolio.json"); // ✅ Opravená cesta
+            const response = await fetch("/data/portfolio.json"); // ✅ Opravená cesta
             if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
             
             const data = await response.json();
