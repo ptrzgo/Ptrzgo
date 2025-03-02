@@ -1,0 +1,57 @@
+[
+    {
+      "category": "grafika",
+      "image": "/public/img/faktura.jpg",
+      "title": "Grafický dizajn 1",
+      "link": "https://example.com/grafika1"
+    },
+    {
+      "category": "web",
+      "image": "assets/images/web1.jpg",
+      "title": "Webový projekt 1",
+      "link": "https://example.com/web1"
+    },
+    {
+      "category": "video",
+      "image": "assets/images/video1.jpg",
+      "title": "video projekt 1",
+      "link": "https://example.com/video1"
+    },
+    {
+      "category": "grafika",
+      "image": "assets/images/grafika2.jpg",
+      "title": "Grafický dizajn 2",
+      "link": "https://example.com/grafika2"
+    },
+    {
+      "category": "web",
+      "image": "assets/images/web2.jpg",
+      "title": "Webový projekt 2",
+      "link": "https://example.com/web2"
+    },
+    {
+      "category": "foto",
+      "image": "assets/images/video2.jpg",
+      "title": "Fotografia projekt 2",
+      "link": "https://example.com/video2"
+    },
+    {
+      "category": "grafika",
+      "image": "assets/images/grafika3.jpg",
+      "title": "Grafický dizajn 3",
+      "link": "https://example.com/grafika3"
+    },
+    {
+      "category": "web",
+      "image": "assets/images/web3.jpg",
+      "title": "Webový projekt 3",
+      "link": "https://example.com/web3"
+    },
+    {
+      "category": "foto",
+      "image": "assets/images/video3.jpg",
+      "title": "Fotografia projekt 3",
+      "link": "https://example.com/video3"
+    }
+  ]
+  
