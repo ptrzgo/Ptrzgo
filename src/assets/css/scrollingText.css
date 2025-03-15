@@ -39,7 +39,7 @@
     width: 300px;
 }
 .bubbles-wrapper .bubble:nth-child(1) {
-    background-color: red ;
+    background-color: rgb(242, 169, 182) ;
     top: -100px;
     left: 50px;
     position: relative;
